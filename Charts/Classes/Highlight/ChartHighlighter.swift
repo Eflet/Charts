@@ -20,6 +20,10 @@ public class ChartHighlighter : NSObject
     /// instance of the data-provider
     public weak var chart: BarLineChartViewBase?
     
+    public override init()
+    {
+    }
+    
     public init(chart: BarLineChartViewBase)
     {
         self.chart = chart

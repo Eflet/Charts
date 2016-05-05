@@ -31,6 +31,7 @@
 #import "SinusBarChartViewController.h"
 #import "PositiveNegativeBarChartViewController.h"
 #import "BubbleChartViewController.h"
+#import "XYBubbleChartViewController.h"
 #import "RealmDemoListViewController.h"
 
 @interface DemoListViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -87,6 +88,11 @@
                           @"title": @"Bubble Chart",
                           @"subtitle": @"A simple demonstration of the bubble chart.",
                           @"class": BubbleChartViewController.class
+                          },
+                      @{
+                          @"title": @"XY Bubble Chart",
+                          @"subtitle": @"A simple demonstration of the xy bubble chart.",
+                          @"class": XYBubbleChartViewController.class
                           },
                       @{
                           @"title": @"Stacked Bar Chart",

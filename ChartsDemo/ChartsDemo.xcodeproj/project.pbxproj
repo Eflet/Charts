@@ -95,6 +95,8 @@
 		65BF12B11BFC9B00005C28D9 /* RealmLineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65BF12AF1BFC9B00005C28D9 /* RealmLineChartViewController.xib */; };
 		65BF12B61BFC9B50005C28D9 /* RealmBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BF12B41BFC9B50005C28D9 /* RealmBarChartViewController.m */; };
 		65BF12B71BFC9B50005C28D9 /* RealmBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65BF12B51BFC9B50005C28D9 /* RealmBarChartViewController.xib */; };
+		B2FFDD5A1CDB249C00D2A7D2 /* XYBubbleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FFDD581CDB249C00D2A7D2 /* XYBubbleChartViewController.m */; };
+		B2FFDD5B1CDB249C00D2A7D2 /* XYBubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2FFDD591CDB249C00D2A7D2 /* XYBubbleChartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -298,6 +300,9 @@
 		65BF12B31BFC9B50005C28D9 /* RealmBarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmBarChartViewController.h; sourceTree = "<group>"; };
 		65BF12B41BFC9B50005C28D9 /* RealmBarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmBarChartViewController.m; sourceTree = "<group>"; };
 		65BF12B51BFC9B50005C28D9 /* RealmBarChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealmBarChartViewController.xib; sourceTree = "<group>"; };
+		B2FFDD571CDB249C00D2A7D2 /* XYBubbleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBubbleChartViewController.h; sourceTree = "<group>"; };
+		B2FFDD581CDB249C00D2A7D2 /* XYBubbleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBubbleChartViewController.m; sourceTree = "<group>"; };
+		B2FFDD591CDB249C00D2A7D2 /* XYBubbleChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYBubbleChartViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,8 +402,8 @@
 			children = (
 				5B8E087E1C635B5200438BAF /* Charts.framework */,
 				5B8E08801C635B5200438BAF /* Charts.framework */,
-				5B8E08821C635B5200438BAF /* ChartsTests.xctest */,
 				65B3F6571C73B4F6000983D0 /* Charts.framework */,
+				5B8E08821C635B5200438BAF /* ChartsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -444,6 +449,9 @@
 				55E3564E1ADC638F00A57971 /* BubbleChartViewController.h */,
 				55E3564F1ADC638F00A57971 /* BubbleChartViewController.m */,
 				55E3564D1ADC638F00A57971 /* BubbleChartViewController.xib */,
+				B2FFDD571CDB249C00D2A7D2 /* XYBubbleChartViewController.h */,
+				B2FFDD581CDB249C00D2A7D2 /* XYBubbleChartViewController.m */,
+				B2FFDD591CDB249C00D2A7D2 /* XYBubbleChartViewController.xib */,
 				5BEAED291ABC160F0013F194 /* CandleStickChartViewController.h */,
 				5BEAED2A1ABC160F0013F194 /* CandleStickChartViewController.m */,
 				5BEAED2B1ABC160F0013F194 /* CandleStickChartViewController.xib */,
@@ -692,6 +700,7 @@
 				5B4316381AB8D8B70009FCAA /* Default@2x.png in Resources */,
 				5B9624421B38608C007763E2 /* NegativeStackedBarChartViewController.xib in Resources */,
 				5BE7E7631C693098000A0377 /* PositiveNegativeBarChartViewController.xib in Resources */,
+				B2FFDD5B1CDB249C00D2A7D2 /* XYBubbleChartViewController.xib in Resources */,
 				65BF12B71BFC9B50005C28D9 /* RealmBarChartViewController.xib in Resources */,
 				5B0CC7861ABB875400665592 /* PieChartViewController.xib in Resources */,
 				5B7B3AE01C437F61001C109B /* RealmCandleChartViewController.xib in Resources */,
@@ -737,6 +746,7 @@
 				5B7B3AE91C4445E7001C109B /* RealmScatterChartViewController.m in Sources */,
 				5B7B3ADF1C437F61001C109B /* RealmCandleChartViewController.m in Sources */,
 				5B4AC14C1C47E7250028D1A6 /* RealmBubbleChartViewController.m in Sources */,
+				B2FFDD5A1CDB249C00D2A7D2 /* XYBubbleChartViewController.m in Sources */,
 				65BF125A1BFBC6EE005C28D9 /* RealmDemoBaseViewController.m in Sources */,
 				5BEAED251ABC0BE20013F194 /* MultipleBarChartViewController.m in Sources */,
 				5B57BBB81A9B26AA0036A6CC /* AppDelegate.m in Sources */,
